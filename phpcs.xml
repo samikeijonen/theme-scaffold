@@ -3,4 +3,7 @@
 	<description>10up PHPCS extended.</description>
 
 	<rule ref="10up-Default" />
+
+	<!-- PHP version check. -->
+	<config name="testVersion" value="5.2-"/>
 </ruleset>
