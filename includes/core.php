@@ -47,10 +47,10 @@ function theme_setup() {
 	add_theme_support( 'post-thumbnails' );
 	add_theme_support(
 		'html5',
-		array(
+		[
 			'search-form',
 			'gallery',
-		)
+		]
 	);
 
 	// This theme uses wp_nav_menu() in three locations.
